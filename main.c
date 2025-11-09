@@ -180,7 +180,7 @@ void check_block_placement(Vector2 mousepos, int newgrid[GRID_CELLS_X][GRID_CELL
 
 int main (void)
 {
-  InitWindow(width, height, "raylib");
+  InitWindow(width, height, "Powder simulation");
 
   // drawn grid offset
   Vector2 gridOffset = { 40, 20 };
