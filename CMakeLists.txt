@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16...4.1) # FetchContent is available in 3.11+
-project(cellular_automata)
+project(gameoflife)
 
 # Generate compile_commands.json
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
