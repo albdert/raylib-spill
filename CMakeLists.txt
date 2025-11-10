@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.16...4.1.2) # FetchContent is available in 3.11+
+cmake_minimum_required(VERSION 3.16...4.1) # FetchContent is available in 3.11+
 project(cellular_automata)
 
 # Generate compile_commands.json
@@ -22,7 +22,6 @@ if (NOT raylib_FOUND) # If there's none, fetch and build raylib
 endif()
 
 # Our Project
-
-add_executable(${PROJECT_NAME} main.c)
+add_executable(${PROJECT_NAME} src/main.c)
 #set(raylib_VERBOSE 1)
 target_link_libraries(${PROJECT_NAME} raylib)

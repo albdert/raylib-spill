@@ -1,5 +1,4 @@
 /.cache
 /build
+/release
 cellular_automata
-*.tar.xz
-

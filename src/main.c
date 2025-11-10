@@ -1,4 +1,4 @@
-#include "include/raylib.h"
+#include "../include/raylib.h"
 #include "raylib.h"
 
 #include <stdbool.h>
